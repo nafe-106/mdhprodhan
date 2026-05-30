@@ -822,6 +822,23 @@ body {
 .pricing-features li i { color: var(--purple); font-size: 14px; flex-shrink: 0; margin-top: 1px; }
 .pricing-card--highlight .pricing-features li i { color: #d4b8ff; }
 
+.pricing-features .feature-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(255,255,255,0.4);
+  padding-top: 6px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.pricing-features .feature-role i { color: #f0b429 !important; }
+
 .pricing-footer { display: flex; gap: 14px; flex-wrap: wrap; }
 .pricing-detail { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--dimmed); font-weight: 500; }
 .pricing-detail i { color: var(--purple); }
